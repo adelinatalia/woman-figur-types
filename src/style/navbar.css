@@ -1,0 +1,29 @@
+nav {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+.nav-figures {
+    width: 5rem;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-figures a {
+    margin: 0 0.5rem;
+}
+
+nav a {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--accent-second);
+}
+
+nav a:hover {
+    color: var(--accent);
+}
